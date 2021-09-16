@@ -34,3 +34,8 @@ pytest --browser chrome --html=report.html
 
 The result will look like:
 ![alt text](https://github.com/marlonrochaeng/pythonAutomationPratice/blob/master/Report%20Example.png?raw=true)
+
+If you want a Junit XML report, go to the root folder of the project and execute the command
+```bash
+pytest --browser chrome --junitxml=report.xml
+```
