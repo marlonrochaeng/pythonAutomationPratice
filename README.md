@@ -32,3 +32,5 @@ To generate the HTML report, go to the root folder of the project and execute th
 pytest --browser chrome --html=report.html
 ```
 
+The result will look like:
+![alt text](https://github.com/marlonrochaeng/pythonAutomationPratice/blob/master/Report%20Example.png?raw=true)
