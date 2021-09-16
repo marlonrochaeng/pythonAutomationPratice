@@ -27,3 +27,8 @@ To run some specific test, go to the root folder of the project and execute the 
 ```bash
 pytest --browser chrome tests/path_to_test.py
 ```
+To generate the HTML report, go to the root folder of the project and execute the command
+```bash
+pytest --browser chrome --html=report.html
+```
+
